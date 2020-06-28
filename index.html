@@ -2,16 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<canvas id="myCanvas" width="400px" height="400px" style="border:1px solid #d3d3d3;"/>
-<script>
-    let ctx = document.getElementById("myCanvas").getContext("2d");
-</script>
-<script src="move_number.js"></script>
-<script src="board.js"></script>
-
+<body onload="myFunction()">
+<div id="game">
+    <div>
+        <h1 style="color:gray; font-size:60px; margin-top:50px">2048</h1>
+        <div id="scorebox"><p id="score">0</p></div>
+    </div>
+    <div id="gamex">
+        <div class="grid_row">
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+        </div>
+        <div class="grid_row">
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+        </div>
+        <div class="grid_row">
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+        </div>
+        <div class="grid_row">
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+            <div class="grid_cell"></div>
+        </div>
+    </div>
+</div>
+<script src="main.js"></script>
 </body>
 </html>

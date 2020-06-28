@@ -30,7 +30,7 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
-#gamex{
+#game_board{
     width: 400px;
     height:400px;
     background-color: #bbada0;

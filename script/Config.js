@@ -6,6 +6,7 @@ const KEY_A = 65;
 const KEY_D = 68;
 const KEY_S = 83;
 const KEY_W = 87;
+const WIN_GAME_2048 = 2048;
 const cell = document.getElementsByClassName("grid_cell");
 const score = document.getElementById("score");
 const main = [

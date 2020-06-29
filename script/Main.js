@@ -1,5 +1,5 @@
 function myFunction(){              //Khi vào game tạo sẵn 1 số ngẫu nhiên
-    swal ( "Di chuyển các ô vuông lại với nhau." ) ;
+    swal ( "Di chuyển các ô vuông lại với nhau", "Tạo ra một ô vuông có giá trị 2048 để chiến thắng!!!" ) ;
     let key = Math.floor(Math.random() * 16);   //Random 1 trong 16 ô
     if(cell[key].innerHTML === ""){
         cell[key].innerHTML = Math.random()<1 ? 2 : 4;

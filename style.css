@@ -50,7 +50,7 @@ h1:hover {
     border-radius: 9%;
 }
 #score{
-    color: white;
+    color: cornsilk;
     font-size: 25px;
     font-weight: bold;
 }
@@ -69,17 +69,18 @@ h1:hover {
     justify-content: center;
 }
 #restart{
+    font-family: Tahoma;
     display: inline-block;
     height: 50px;
     width: 80px;
     float: right;
-    background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
+    background-image: linear-gradient(to bottom, #26BDA6,#26BDA6, #FF9F65 );
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 9%;
-    color: white;
-    font-size: 20px;
+    color:  paleturquoise;
+    font-size: 15px;
     font-weight: bold;
     cursor: pointer;
 }

@@ -2,10 +2,10 @@ let Move = function () {
     this.moveUp = function () {
         for (let j = 0; j < 4; j++) {
             for (let i = 1; i < 4; i++) {
-                if (cell[main[i][j]].innerHTML) {                                           // Nếu ô cell có giá trị
+                if (cell[main[i][j]].innerHTML) {                                              // Nếu ô cell có giá trị
                     let row = i;
                     while (row > 0) {
-                        if (cell[main[row - 1][j]].innerHTML == "") {                            //Nếu ô phía trên ô cell là ô trống
+                        if (cell[main[row - 1][j]].innerHTML == "") {                          //Nếu ô phía trên ô cell là ô trống
                             cell[main[row - 1][j]].innerHTML = cell[main[row][j]].innerHTML;  //Di chuyển giá trị ô cell lên ô trống
                             cell[main[row][j]].innerHTML = "";                                      // Cho giá trị ô cell vừa lên thành trống
                             row--;
@@ -23,7 +23,6 @@ let Move = function () {
             }
         }
     }
-
     this.moveDown = function () {
         for (let j = 0; j < 4; j++) {
             for (let i = 2; i >= 0; i--) {

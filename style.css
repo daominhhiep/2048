@@ -55,7 +55,7 @@ h1:hover {
     font-weight: bold;
 }
 #game_board{
-    text-transform: uppercase
+    text-transform: uppercase;
     background-size: auto 250%;
     display: inline-block;;
     background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
@@ -74,7 +74,7 @@ h1:hover {
     height: 50px;
     width: 80px;
     float: right;
-        background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
+    background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,6 +82,7 @@ h1:hover {
     color: white;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 .grid_row{
     width:400px;
@@ -95,7 +96,7 @@ h1:hover {
     height: 91px;
     width: 91px;
     margin-right:16px;
-    background-color: #cdc1b4;
+    background-color: bisque;
     border-radius: 5%;
     font-size:50px;
     color:white;

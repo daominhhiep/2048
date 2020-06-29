@@ -1,19 +1,15 @@
-let audio1 = new Audio('audio/audio.mp3');
-let audio2 = new Audio('audio/background_audio.mp3')
-let audio3 = new Audio('audio/background_audio2.mp3')
-
 function designNumber(){                //gán màu cho các ô trống và ô số
     for (let i = 0; i < cell.length; i++) {
         if(cell[i].innerHTML==="") {
             cell[i].style.backgroundColor="#cdc1b4";
         }
         else if(cell[i].innerHTML==="2") {
-            cell[i].style.color="#776e65";
-            cell[i].style.backgroundColor="#eee4da";
+            cell[i].style.color="gray";
+            cell[i].style.backgroundColor="paleturquoise";
         }
         else if(cell[i].innerHTML==="4") {
             cell[i].style.color="#776e65";
-            cell[i].style.backgroundColor="#ede0c8";
+            cell[i].style.backgroundColor="#FF9F65";
         }
         else if(cell[i].innerHTML==="8") {
             cell[i].style.color="white";
@@ -21,11 +17,11 @@ function designNumber(){                //gán màu cho các ô trống và ô s
         }
         else if(cell[i].innerHTML==="16") {
             cell[i].style.color="white";
-            cell[i].style.backgroundColor="#fc5e2e";
+            cell[i].style.backgroundColor="#DED37E";
         }
         else if(cell[i].innerHTML==="32") {
             cell[i].style.color="white";
-            cell[i].style.backgroundColor="#f67c5f";
+            cell[i].style.backgroundColor="#26BDA6";
         }
         else if(cell[i].innerHTML==="64") {
             cell[i].style.color="white";

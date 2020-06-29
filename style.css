@@ -37,6 +37,9 @@ h1:hover {
 }
 #score_box{
     display: inline-block;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
+    background-size: auto 250%;
     height: 50px;
     width: 80px;
     float: right;
@@ -52,9 +55,12 @@ h1:hover {
     font-weight: bold;
 }
 #game_board{
+    text-transform: uppercase
+    background-size: auto 250%;
+    display: inline-block;;
+    background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
     width: 400px;
     height:400px;
-    background-color: #bbada0;
     border: #bbada0 solid 5px;
     border-radius: 2%;
     display: flex;
@@ -68,7 +74,7 @@ h1:hover {
     height: 50px;
     width: 80px;
     float: right;
-    background-color: #bbada0;
+        background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,3 +102,5 @@ h1:hover {
     text-align:center;
     font-weight: bold;
 }
+
+

@@ -6,6 +6,7 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
+    background-image: url("background.jpg");
 }
 #game{
     height: 500px;
@@ -14,7 +15,7 @@ body{
 #game div{
     margin-bottom: 5px;
 }
-#scorebox{
+#score_box{
     display: inline-block;
     height: 50px;
     width: 80px;

@@ -18,7 +18,7 @@ let main = [
 
 
 function myFunction(){              //Khi vào game tạo sẵn 1 số ngẫu nhiên
-    let key = Math.floor(Math.random() * 16); //Random 1 trong 16 ô
+    let key = Math.floor(Math.random() * 16);   //Random 1 trong 16 ô
     if(cell[key].innerHTML === ""){
         cell[key].innerHTML = Math.random()<1 ? 2 : 4;
         designNumber();
@@ -28,13 +28,12 @@ function myFunction(){              //Khi vào game tạo sẵn 1 số ngẫu nh
 function randomNumber(){
     let ramdomNum = Math.floor(Math.random() * 16);
     if(cell[ramdomNum].innerHTML === ""){                          // Nếu ô trống
-        cell[ramdomNum].innerHTML = Math.random() < 0.95 ? 2:4;   //xuất hiện ngẫu nhiên số 2 hoặc 4 với tỷ lệ số 2 là 95%
+        cell[ramdomNum].innerHTML = Math.random() < 0.95 ? 2 : 4;   //xuất hiện ngẫu nhiên số 2 hoặc 4 với tỷ lệ số 2 là 95%
     }
     else{
         randomNumber();
     }
 }
-
 
 function startGame(event){
     let move = new Move();

@@ -42,6 +42,21 @@ body{
     align-items: center;
     justify-content: center;
 }
+#restart{
+    display: inline-block;
+    font-family: Calibri;
+    height: 50px;
+    width: 80px;
+    float: right;
+    background-color: #bbada0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
 .grid_row{
     width:400px;
     height:90px;

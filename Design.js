@@ -1,3 +1,7 @@
+let audio1 = new Audio('audio.mp3');
+let audio2 = new Audio('background_audio.mp3')
+let audio3 = new Audio('background_audio2.mp3')
+
 function designNumber(){                //gán màu cho các ô trống và ô số
     for (let i = 0; i < cell.length; i++) {
         if(cell[i].innerHTML==="") {

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>2048</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body onload = "myFunction()">
 <div id="game">
@@ -41,9 +40,14 @@
             <div class="grid_cell"></div>
         </div>
     </div>
+    <div>
+        <button onclick="restart()" id="restart">Restart</button>
+    </div>
 </div>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="Main.js"></script>
 <script src="Design.js"></script>
 <script src="Move.js"></script>
+<script src="Check.js"></script>
 </body>
 </html>

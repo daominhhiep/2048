@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2048 Game | Đăng nhập</title>
+    <link rel="stylesheet" href="styleForm.css">
+</head>
+<body>
+<form action="../index.html" method="post" class="loginform" onsubmit="return login()">
+    <div>
+        <h1>2048</h1>
+    </div>
+    <h2>Đăng nhập</h2>
+    <div class="input">
+        <input  type="text" id="username" class="user-name" required>
+        <div class="placeholder">Tên đăng nhập</div>
+        <div class="fa fa-user icon" ></div>
+    </div>
+    <div class="input">
+        <input class="input-field" type="password" id="password" required>
+        <div class="placeholder">Mật khẩu</div>
+        <div class="pass fas fa-eye"></div>
+    </div>
+    <button type="submit" onclick="login()">Đăng nhập</button>
+    <br>
+    <br>
+</form>
+<script src="script/login.js"></script>
+<script src="script/CheckInput.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://kit.fontawesome.com/96ec192e4d.js" crossorigin="anonymous"></script>
+</body>
+</html>

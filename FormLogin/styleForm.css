@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+h1 {
+    display: inline-block;
+    font: bold 4.5em/1.5 Bebas, sans-serif;
+    color: #5CA17C;
+    font-size: 80px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
+    background-size: auto 250%;
+    transition: background-position 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 200px;
+    background-position: 0 100%;
+}
+h1:hover {
+    background-position: 0 0;
+    cursor: pointer;
+}
+h2{
+    color: lightslategray;
+    margin-bottom: 10px;
+    font-family: Tahoma;
+}
+
+
+.loginform{
+    background-color: white;
+    padding: 30px 40px;
+    width: 60%;
+    max-width: 500px;
+}
+.input{
+    margin-bottom: 12px;
+    position: relative;
+    color: gray;
+}
+.input input{
+    width: 100%;
+    height: 70px;
+    background-color: aliceblue;
+    border: none;
+    font-size: 15px;
+    padding: 0 15px;
+}
+.input .placeholder,.input .pass,.input .fa{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.input .placeholder{
+    left: 15px;
+}
+.input .pass{
+    right: 10px;
+}
+.input .fa {
+    right: 10px;
+}
+/* khi focus có tác dụng lên place holder */
+.input input:focus ~.placeholder,
+.input input:valid ~.placeholder{
+    top: 20px;
+    font-size: 12px;
+}
+button{
+    display: block;
+    width: 110px;
+    height: 50px;
+    margin: 10px auto;
+    font-size: 20px;
+    background-color: lightslategray;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s all ease-in;
+}
+button:hover{
+    background-color: rgba(255, 121, 121,0.37);
+}
+
+button:disabled{
+    background-color: transparent;
+    color: gray;
+    border: 1px solid gray;
+    cursor: not-allowed;
+}
+.loginform a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.loginform a:hover{
+    text-decoration: underline;
+}

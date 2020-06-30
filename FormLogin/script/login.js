@@ -1,5 +1,5 @@
 const DEFAULT_USERNAME = "admin";
-const DEFAULT_PASSWORD = "123456";
+const DEFAULT_PASSWORD = "admin";
 let input = document.querySelectorAll("input");
 let button = document.querySelectorAll("button");
 

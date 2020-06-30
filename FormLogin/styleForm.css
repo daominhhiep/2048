@@ -34,8 +34,6 @@ h2{
     margin-bottom: 10px;
     font-family: Tahoma;
 }
-
-
 .loginform{
     background-image: url("images/background_blur.png");
     padding: 30px 40px;
@@ -87,6 +85,7 @@ button{
     color: white;
     cursor: pointer;
     transition: 0.3s all ease-in;
+    font-family: Tahoma;
 }
 button:hover{
     background-color: rgba(255, 121, 121,0.37);

@@ -30,7 +30,7 @@ h1:hover {
     cursor: pointer;
 }
 h2{
-    color: lightslategray;
+    color: gray;
     margin-bottom: 10px;
     font-family: Tahoma;
 }
@@ -44,6 +44,9 @@ h2{
     margin-bottom: 12px;
     position: relative;
     color: gray;
+    opacity: 0.4;
+    border-radius: 2px;
+    border: 0;
 }
 .input input{
     width: 100%;
@@ -71,7 +74,7 @@ h2{
 .input input:focus ~.placeholder,
 .input input:valid ~.placeholder{
     top: 20px;
-    font-size: 12px;
+    font-size: 15px;
 }
 button{
     display: block;
@@ -82,7 +85,7 @@ button{
     background-color: lightslategray;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: #DED37E;
     cursor: pointer;
     transition: 0.3s all ease-in;
     font-family: Tahoma;

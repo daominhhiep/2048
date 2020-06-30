@@ -15,6 +15,6 @@ const main = [
     [8,9,10,11],
     [12,13,14,15]
             ];
-let audio1 = new Audio('audio/audio.mp3');
-let audio2 = new Audio('audio/background_audio.mp3')
-let audio3 = new Audio('audio/background_audio2.mp3')
+const audio1 = new Audio('audio/audio.mp3');
+const audio2 = new Audio('audio/background_audio.mp3')
+const audio3 = new Audio('audio/background_audio2.mp3')

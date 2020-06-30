@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body{
+
     background-color: rgba(0, 0, 0, 0.37);
     display: flex;
     align-items: center;
@@ -36,7 +37,7 @@ h2{
 
 
 .loginform{
-    background-color: white;
+    background-image: url("images/background_blur.png");
     padding: 30px 40px;
     width: 60%;
     max-width: 500px;

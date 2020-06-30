@@ -25,7 +25,11 @@ h1 {
 }
 h1:hover {
     background-position: 0 0;
+}
+button{
+    border: none;
     cursor: pointer;
+    background-color: transparent;
 }
 
 #game{

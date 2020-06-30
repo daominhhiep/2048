@@ -1,4 +1,4 @@
-    function designNumber(){                //gán màu cho các ô trống và ô số
+let designNumber = function(){                //gán màu cho các ô trống và ô số
     for (let i = 0; i < cell.length; i++) {
         if(cell[i].innerHTML==="") {
             cell[i].style.backgroundColor="#cdc1b4";

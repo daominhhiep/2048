@@ -24,3 +24,4 @@ let ramdomMusic = function() {
         audio3.play();
     }
 }
+
